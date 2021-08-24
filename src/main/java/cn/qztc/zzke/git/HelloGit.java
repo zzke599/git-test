@@ -12,9 +12,12 @@ public class HelloGit {
 
         int a = 18, b = 17;
         System.out.println(String.format("%d + %d = %d", a, b, sum(a, b)));
-
+        System.out.println(String.format("%d - %d = %d", a, b, diff(a, b)));
     }
     public static int sum(int a,int b) {
         return  a + b;
+    }
+    public static int diff(int a, int b) {
+        return a - b;
     }
 }
