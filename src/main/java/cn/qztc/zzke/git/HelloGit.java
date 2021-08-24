@@ -7,6 +7,7 @@ public class HelloGit {
         System.out.println("Hello Git!");
         System.out.println("hello hotfix");
         System.out.println("master test");
+        System.out.println("hotfix test");
         int a = 18, b = 17;
         System.out.println(String.format("%d + %d = %d", a, b, sum(a, b)));
     }
