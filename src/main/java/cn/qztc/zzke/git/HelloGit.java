@@ -8,8 +8,11 @@ public class HelloGit {
         System.out.println("hello hotfix");
         System.out.println("master test");
         System.out.println("hotfix test");
+        System.out.println("push tset");
+
         int a = 18, b = 17;
         System.out.println(String.format("%d + %d = %d", a, b, sum(a, b)));
+
     }
     public static int sum(int a,int b) {
         return  a + b;
